@@ -15,8 +15,14 @@ export const auth = defineAuth({
       },
       callbackUrls: [
         'http://localhost:5173/',
+        // 追記
+        'https://master.d2gqzvqcw33vpq.amplifyapp.com/'
       ],
-      logoutUrls: ['http://localhost:5173/'],
+      logoutUrls: [
+        'http://localhost:5173/',
+        //追記
+        'https://master.d2gqzvqcw33vpq.amplifyapp.com/'
+      ],
     },
   },
 });
